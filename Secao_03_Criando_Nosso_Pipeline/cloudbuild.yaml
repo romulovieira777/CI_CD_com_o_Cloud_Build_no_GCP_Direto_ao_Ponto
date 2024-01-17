@@ -1,0 +1,57 @@
+steps:
+  - id: 'Pull Terraform Image'
+    name: 'gcr.io/cloud-builders/docker'
+    entrypoint: 'bash'
+    args: [
+      '-c',
+      'docker pull gcr.io/$PROJECT_ID/terraform:latest || exit 0'
+    ]
+
+  - id: 'Build Terraform Image'
+    name: 'gcr.io/cloud-builders/docker'
+    args: [
+      'build',
+      '--tag=gcr.io/${PROJECT_ID}/terraform:latest',
+      '--build-arg=TERRAFORM_VERSION=${__TERRAFORM_VERSION}',
+      '--build-arg=TERRAFORM_VERSION_SHA256SUM=${__TERRAFORM_VERSION_SHA256SUM}',
+      '--build-arg=TERRAFORM_VALIDATOR_RELEASE=${__TERRAFORM_VALIDATOR_RELEASE}',
+      '--cache-from',
+      'gcr.io/${PROJECT_ID}/terraform:latest',
+      '.'
+    ]
+
+  - id: 'Enabling APIs'
+    name: 'gcr.io/${PROJECT_ID}/terraform:latest'
+    entrypoint: '/bin/bash'
+    args:
+    - -c
+    - |
+      gcloud services enable compute.googleapis.com
+
+  - id: 'Executing Terraform Init'
+    name: 'gcr.io/${PROJECT_ID}/terraform:latest'
+    entrypoint: '/bin/bash'
+    args:
+    - -c
+    - |
+      echo "Update the project ID"
+      sed -i "s\PROJECT_ID\${PROJECT_ID}\g" main.tf
+      echo "Update backend bucket"
+      sed -i "s\BUCKET_NAME\${_BUCKET_NAME}\g" backend.tf
+      echo "Change permission for entrypoint.bash"
+      chmod +x ./entrypoint.bash
+      echo "Running terraform init"
+      terraform init
+      if [ $_TF_ACTION = 'plan' ];
+      then
+        terraform plan
+      else
+        terraform apply -auto-approve
+      fi
+
+substitutions:
+  _TERRAFORM_VERSION: 0.12.29
+  _TERRAFORM_VERSION_SHA2: '0.12.29_SHA256SUM'
+  _TERRAFORM_VALIDATOR_RELEASE: 2.19.0
+
+images: ['gcr.io/${PROJECT_ID}/terraform:latest']
