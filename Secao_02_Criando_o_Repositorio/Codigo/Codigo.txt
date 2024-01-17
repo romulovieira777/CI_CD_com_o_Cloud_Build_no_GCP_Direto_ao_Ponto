@@ -1,0 +1,7 @@
+Via Shell da GCP
+
+Criando a chave ssh
+ssh-keygen
+
+Mostrando a chave ssh criada
+cat ~/.ssh/id_rsa.pub
