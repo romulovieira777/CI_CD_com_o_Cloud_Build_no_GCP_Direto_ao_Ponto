@@ -3,4 +3,4 @@
 ### 💥 Os temas abordados durante o curso foram: 🚀
 - [Seção 01 - Introdução](https://github.com/romulovieira777/CI_CD_com_o_Cloud_Build_no_GCP_Direto_ao_Ponto/tree/main/Secao_01_Introducao)
 - [Seção 02 - Criando o Repositório](https://github.com/romulovieira777/CI_CD_com_o_Cloud_Build_no_GCP_Direto_ao_Ponto/tree/main/Secao_02_Criando_o_Repositorio)
-- [Seção 03 - Criando nosso Pipeline]()
+- [Seção 03 - Criando nosso Pipeline](https://github.com/romulovieira777/CI_CD_com_o_Cloud_Build_no_GCP_Direto_ao_Ponto/tree/main/Secao_03_Criando_Nosso_Pipeline)
