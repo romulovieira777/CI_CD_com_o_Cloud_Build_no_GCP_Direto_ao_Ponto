@@ -1,0 +1,14 @@
+Google Cloud Compute Engine
+https://cloud.google.com/compute/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-BKWS-all-all-trial-e-dr-1707800-LUAC0008673&utm_content=text-ad-none-any-DEV_c-CRE_429691579876-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+Compute_Compute-Engine-KWID_43700040358183210-kwd-608670589133&utm_term=KW_google+cloud+compute+engine-ST_Google+Cloud+Compute+Engine&gad_source=1&gclid=CjwKCAiAkp6tBhB5EiwANTCx1J9VyjQVW1XMyx9y9Ht2bxD0rmaesvgD5jy0PO168XPkYMbUbmpvpRoCvUMQAvD_BwE&gclsrc=aw.ds&hl=en
+
+Google Cloud Storage
+https://cloud.google.com/storage/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-BKWS-all-all-trial-e-dr-1707800-LUAC0008673&utm_content=text-ad-none-any-DEV_c-CRE_429691579876-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+Storage_Storage-KWID_43700040358183210-kwd-608670589133&utm_term=KW_google+cloud+storage-ST_Google+Cloud+Storage&gad_source=1&gclid=CjwKCAiAkp6tBhB5EiwANTCx1J9VyjQVW1XMyx9y9Ht2bxD0rmaesvgD5jy0PO168XPkYMbUbmpvpRoCvUMQAvD_BwE&gclsrc=aw.ds&hl=en
+
+Google Cloud Build
+https://cloud.google.com/cloud-build/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-BKWS-all-all-trial-e-dr-1707800-LUAC0008673&utm_content=text-ad-none-any-DEV_c-CRE_429691579876-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+Build_Build-KWID_43700040358183210-kwd-608670589133&utm_term=KW_google+cloud+build-ST_Google+Cloud+Build&gad_source=1&gclid=CjwKCAiAkp6tBhB5EiwANTCx1J9VyjQVW1XMyx9y9Ht2bxD0rmaesvgD5jy0PO168XPkYMbUbmpvpRoCvUMQAvD_BwE&gclsrc=aw.ds&hl=en
+
+Google Cloud Build API
+https://cloud.google.com/cloud-build/docs/api/reference/rest/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-BKWS-all-all-trial-e-dr-1707800-LUAC0008673&utm_content=text-ad-none-any-DEV_c-CRE_429691579876-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+Build_Build-KWID_43700040358183210-kwd-608670589133&utm_term=KW_google+cloud+build+api-ST_Google+Cloud+Build+API&gad_source=1&gclid=CjwKCAiAkp6tBhB5EiwANTCx1J9VyjQVW1XMyx9y9Ht2bxD0rmaesvgD5jy0PO168XPkYMbUbmpvpRoCvUMQAvD_BwE&gclsrc=aw.ds&hl=en
+
+Google Cloud IAM & Admin
+https://cloud.google.com/iam/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-BKWS-all-all-trial-e-dr-1707800-LUAC0008673&utm_content=text-ad-none-any-DEV_c-CRE_429691579876-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+IAM_IAM+%26+Admin-KWID_43700040358183210-kwd-608670589133&utm_term=KW_google+cloud+iam+%26+admin-ST_Google+Cloud+IAM+%26+Admin&gad_source=1&gclid=CjwKCAiAkp6tBhB5EiwANTCx1J9VyjQVW1XMyx9y9Ht2bxD0rmaesvgD5jy0PO168XPkYMbUbmpvpRoCvUMQAvD_BwE&gclsrc=aw.ds&hl=en

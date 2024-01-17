@@ -1,0 +1,7 @@
+Via Shell da GCP
+
+Setar projetos
+gcloud config set project [PROJECT_ID]
+
+Criar buckets
+gsutil mb -l us-east1 gs://[BUCKET_NAME]
